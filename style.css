@@ -100,3 +100,20 @@ p {
   padding: 20px 15px;
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .yoga-img,
+  .weather-img,
+  .yogurt-img {
+    display: none;
+  }
+  .contact-link {
+    display: block;
+  }
+}
