@@ -1,11 +1,7 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #46709b;
+  --secondary-color: #e2ebf0;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-body {
-  margin: 100px;
 }
 
 h1,
@@ -37,6 +33,13 @@ p {
   text-align: center;
 }
 
+.hero {
+  background-color: var(--secondary-color);
+  padding: 240px 140px;
+}
+.navbar {
+  background-color: var(--secondary-color);
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
