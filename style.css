@@ -101,7 +101,7 @@ p {
   margin-top: 60px;
 }
 .paragraph-titles {
-  text-align: left !important;
+  text-align: left;
 }
 
 .launch {
@@ -132,5 +132,16 @@ p {
     padding: 140px 0px 70px 0;
   }
   .homepage-titles {
-  margin-top: 10px;
+    margin-top: 10px;
+  }
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+}
+.about-section-content {
+  margin: 30px;
 }
