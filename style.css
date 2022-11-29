@@ -119,8 +119,8 @@ p {
 .content {
   margin: 30px;
 }
-.project-details h2 {
-  font-size: 24px;
+.content-section h2 {
+  font-size: 28px;
 }
 
 @media (max-width: 760px) {
@@ -148,5 +148,8 @@ p {
   }
   .content-section h1 {
     font-size: 44px;
+  }
+  .email-link {
+    font-size: 18px;
   }
 }
