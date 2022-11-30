@@ -8,6 +8,7 @@
 body {
   font-family: var(--default-font-family);
 }
+
 h1,
 h2,
 h3 {
@@ -40,7 +41,7 @@ p {
 
 .hero {
   background-color: var(--secondary-color);
-  padding: 240px 0 140px 0;
+  padding: 240px 0 120px 0;
 }
 .navbar {
   background-color: var(--secondary-color);
@@ -116,11 +117,26 @@ p {
 .content-section h1 {
   font-size: 64px;
 }
+
 .content {
   margin: 30px;
 }
 .content-section h2 {
   font-size: 28px;
+}
+.social-links a {
+  color: var(--primary-color);
+  margin: 0 30px;
+  background: var(--secondary-color);
+  font-size: 36px;
+  padding: 12px 16px;
+  border-radius: 50%;
+}
+
+.social-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 760px) {
@@ -141,7 +157,7 @@ p {
     display: block;
   }
   .hero {
-    padding: 140px 0px 70px 0;
+    padding: 140px 0px 30px 0;
   }
   .homepage-titles {
     margin-top: 10px;
@@ -151,5 +167,12 @@ p {
   }
   .email-link {
     font-size: 18px;
+  }
+  .content-section {
+    padding: 80px 20px;
+  }
+  .social-links a {
+    font-size: 18px;
+    margin: 0 18px;
   }
 }
