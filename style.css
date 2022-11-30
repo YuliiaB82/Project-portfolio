@@ -41,7 +41,7 @@ p {
 
 .hero {
   background-color: var(--secondary-color);
-  padding: 240px 0 120px 0;
+  padding: 160px 0 40px 0;
 }
 .navbar {
   background-color: var(--secondary-color);
@@ -112,7 +112,7 @@ p {
   text-decoration: none;
 }
 .content-section {
-  padding: 160px 20px;
+  padding: 140px 20px;
 }
 .content-section h1 {
   font-size: 64px;
@@ -157,7 +157,7 @@ p {
     display: block;
   }
   .hero {
-    padding: 140px 0px 30px 0;
+    padding: 120px 0px 20px 0;
   }
   .homepage-titles {
     margin-top: 10px;
@@ -169,7 +169,10 @@ p {
     font-size: 18px;
   }
   .content-section {
-    padding: 80px 20px;
+    padding: 100px 20px;
+  }
+  .content {
+    margin-top: -40px;
   }
   .social-links a {
     font-size: 18px;
